@@ -1,0 +1,57 @@
+# -------------------------
+# Node / Next.js
+# -------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.next/
+dist/
+out/
+build/
+.cache/
+.DS_Store
+
+# -------------------------
+# Env & Secrets
+# -------------------------
+.env
+.env.local
+.env.*.local
+backend/.env
+
+# -------------------------
+# Supabase Auth Keys (must NOT commit)
+# -------------------------
+supabase/.env
+supabase/config.toml
+
+# -------------------------
+# Logs
+# -------------------------
+logs/
+*.log
+*.pid
+*.seed
+*.pid.lock
+
+# -------------------------
+# OS / Editor
+# -------------------------
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# -------------------------
+# Exported Projects
+# -------------------------
+public/projects/
+*.zip
+node_modules/
+.env
+npm-debug.log*
+logs/
+*.log
+.DS_Store

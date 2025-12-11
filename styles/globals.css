@@ -24,3 +24,19 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+/* Fix sidebar section headings visibility */
+.gjs-pn-views-container h4,
+.gjs-pn-views-container h3,
+.gjs-pn-views-container h2,
+.gjs-pn-views-container h1 {
+  background: #f5f5f5 !important; /* light gray background */
+  color: #111 !important;         /* dark text */
+  font-weight: bold;
+  padding: 6px 10px;
+  margin: 5px 0;
+  border-radius: 4px;
+  font-size: 14px;
+}
+#mysty{
+  color:black;
+}
